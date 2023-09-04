@@ -6,7 +6,7 @@
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Class Methods](#class-methods)
+- [Methods](#methods)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
@@ -45,22 +45,22 @@ git clone https://github.com/FaceND/quizizz-bot.git
 4. Before using `quizizzBot`, make sure you have the required libraries installed
 5. You may also need to download the appropriate WebDriver for your browser (e.g., ChromeDriver or EdgeDriver) and add it to your system's PATH.
 
-## Class Methods
+## Methods
 
-### *checkStatus(url)*
+### *checkStatus*
 - Checks the status of a URL and returns the HTTP status code.
 - Handles connection errors and HTTP errors.
 
 > This method verifies the accessibility of a URL by checking its HTTP status code.
 1. `url`: The URL to be checked.
 
-### *generateBotName(min_chr, max_chr)*
+### *generateBotName*
 - Generates a random bot name with a specified minimum and maximum character length.
 > This method creates a randomized bot name using a combination of letters, digits, and punctuation.
 1. `min_chr`: The minimum number of characters for the generated name.
 2. `max_chr`: The maximum number of characters for the generated name.
 
-### *listPlayer(show_listPlayer=True, max_waitTime=30)*
+### *listPlayer*
 - Lists players in the Quizizz game.
 - Optionally, you can choose to show the player list and set a maximum waiting time.
 
@@ -68,7 +68,7 @@ git clone https://github.com/FaceND/quizizz-bot.git
 1. `show_listPlayer`: Set to `True` to display the list of players (default is `True`).
 2. `max_waitTime`: Maximum time to wait for elements to load (default is 30 seconds).
 
-### *dummy(name, makeAutoExam=False, max_waitTime=30)*
+### *dummy*
 - Simulates a player joining a Quizizz game with a given name.
 - Can handle duplicate access and other errors.
 - Optionally, you can create an automated exam with the `makeAutoExam` parameter.
@@ -78,7 +78,7 @@ git clone https://github.com/FaceND/quizizz-bot.git
 2. `makeAutoExam`: Set to True to simulate exam-like conditions (default is False).
 3. `max_waitTime`: Maximum time to wait for elements to load (default is 30 seconds).
 
-### *mutiDummy(num_processes, NameList=[], makeAutoExam=False, max_waitTime=30)*
+### *mutiDummy*
 - Spawns multiple dummy players concurrently using Python's multiprocessing.
 - You can specify the number of processes, a list of names, and other options.
 > This method creates multiple dummy players concurrently.
