@@ -8,7 +8,7 @@
 - [Methods](#methods)
 - [Usage](#usage)
 - [License](#license)
-- [Contribution](#contribution)
+- [Contributing](#contributing)
 - [Version](#version)
 
 ## Features
@@ -142,7 +142,7 @@ if __name__ == '__main__':
     quizz.mutiDummy(num_processes=3, makeAutoExam=True)
 ```
 
-## Contribution
+## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or create a pull request.
 
 ## License
