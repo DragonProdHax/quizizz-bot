@@ -1,1 +1,1 @@
-gunicorn -w 4 -b 0.0.0.0:10000 app:app
+gunicorn app:app --workers=2 --threads=4 --timeout=120

@@ -1,6 +1,7 @@
+selenium
+webdriver-manager
+gunicorn
 flask
 flask_cors
-gunicorn
-selenium
 requests
 beautifulsoup4
